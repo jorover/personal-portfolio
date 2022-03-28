@@ -1,0 +1,69 @@
+[
+   {
+       "id": 1,
+       "title": "R-Furniture Store",
+       "img":"/public/images/r-f.png",
+       "description": "R-Furniture Store is an ecommerce website that i made with React and Snipcart. This project gave me alot of insight on react's core concepts such as components, props, hooks and react router. Snipcart takes care of the shopping cart functionality.",
+       "repo": "",
+       "liveSite": "",
+       "alt": "image one",
+       "dataOs": "slide-right"
+   },
+
+   {
+        "id": 2,
+        "title": "Hotel Booking App",
+        "img":"/public/images/hb.png",
+        "description": "D-Apartments is a user-friendly Hotel Booking website made with Next JS(A React Framework). Users are able to choose different rooms with different prices in real-time, there is a simple form validation to get the guest details and an order summary.",
+        "repo": "",
+        "liveSite": "",
+        "alt": "image two",
+        "dataOs": "slide-left"
+    },
+
+    {
+        "id": 3,
+        "title": "Job Search App",
+        "img":"/public/images/jss.png",
+        "description": "RevJobs is a job search website inspired by one of FrontEnd Mentor 'ADVANCED' Challenge, it was made with HTML5, CSS3 & VANILLA JAVASCRIPT. With it's flexible job search filter, users are able to filter jobs on the index page by title, location, and whether a job is for a full-time position, users are also able to click a job from the index page so that they can read more information and apply for the job.",
+        "repo": "",
+        "liveSite": "",
+        "alt": "image three",
+        "dataOs": "slide-right"
+    },
+
+    {
+        "id": 4,
+        "title": "Photography Portflio Website",
+        "img":"/public/images/fp.png",
+        "description": "FP-Photography is a website built with Angular, TypeScript and Bootstrap, it's a landing page that displays the portfolio of a freelance photographer, this was a really fun project for me.",
+        "repo": "",
+        "liveSite": "",
+        "alt": "image four",
+        "dataOs": "slide-left"
+    },
+ 
+    {
+         "id": 5,
+         "title": "Chocolate Online Shop",
+         "img":"/public/images/c-v.png",
+         "description": "RC Chocolates online shop website is a project i developed using Vue and Tailwind, Vue's component structure was interesting to explore and Tailwind made the styling a walk in the park. ",
+         "repo": "",
+         "liveSite": "",
+         "alt": "image five",
+         "dataOs": "slide-right"
+     },
+ 
+     {
+         "id": 6,
+         "title": "Interactive Rating Component",
+         "img":"/public/images/ic.png",
+         "description": "Interactive rating component is a project from the FrontEnd Mentors challenge, built with HTML5, CSS3 and Vanilla Javascript, Users are able to: View the optimal layout for the app depending on their device's screen size, See hover states for all interactive elements on the page, Select and submit a number rating, See the Thank you card state after submitting a rating ",
+         "repo": "",
+         "liveSite": "",
+         "alt": "image six",
+         "dataOs": "slide-left"
+     }
+
+
+]
