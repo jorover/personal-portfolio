@@ -4,8 +4,8 @@
        "title": "R-Furniture Store",
        "img":"/public/images/r-f.png",
        "description": "R-Furniture Store is an ecommerce website that i made with React and Snipcart. This project gave me alot of insight on react's core concepts such as components, props, hooks and react router. Snipcart takes care of the shopping cart functionality.",
-       "repo": "",
-       "liveSite": "",
+       "repo": "https://github.com/jorover/furniture-app.git",
+       "liveSite": "https://furniture-snip-app.netlify.app",
        "alt": "image one",
        "dataOs": "slide-right"
    },
@@ -15,8 +15,8 @@
         "title": "Hotel Booking App",
         "img":"/public/images/hb.png",
         "description": "D-Apartments is a user-friendly Hotel Booking website made with Next JS(A React Framework). Users are able to choose different rooms with different prices in real-time, there is a simple form validation to get the guest details and an order summary.",
-        "repo": "",
-        "liveSite": "",
+        "repo": "https://github.com/jorover/next-hotel-booking-app.git",
+        "liveSite": "https://next-hotel-booking-app.netlify.app",
         "alt": "image two",
         "dataOs": "slide-left"
     },
@@ -26,43 +26,54 @@
         "title": "Job Search App",
         "img":"/public/images/jss.png",
         "description": "RevJobs is a job search website inspired by one of FrontEnd Mentor 'ADVANCED' Challenge, it was made with HTML5, CSS3 & VANILLA JAVASCRIPT. With it's flexible job search filter, users are able to filter jobs on the index page by title, location, and whether a job is for a full-time position, users are also able to click a job from the index page so that they can read more information and apply for the job.",
-        "repo": "",
-        "liveSite": "",
+        "repo": "https://github.com/jorover/jobsearchapp.git",
+        "liveSite": "https://job-search-app.netlify.app",
         "alt": "image three",
         "dataOs": "slide-right"
     },
 
     {
         "id": 4,
-        "title": "Photography Portflio Website",
-        "img":"/public/images/fp.png",
-        "description": "FP-Photography is a website built with Angular, TypeScript and Bootstrap, it's a landing page that displays the portfolio of a freelance photographer, this was a really fun project for me.",
-        "repo": "",
-        "liveSite": "",
+        "title": "REST Countries API",
+        "img":"/public/images/capi.png",
+        "description": "Rest Countries API is a FrontEnd Mentors ‘ADVANCED’ challenge that I made with React. Using javascript’s in-built fetch method, I was able to communicate with the API and display the countries in a fashion that gives a good user Experience. Users are able to see all countries from the API on the homepage, search for a country using an input field, Filter countries by region, click on a country to see more detailed information on a separate page and click through to the border countries on the detail page.",
+        "repo": "https://github.com/jorover/restapicountry.git",
+        "liveSite": "https://rest-api-countries-project.netlify.app",
         "alt": "image four",
         "dataOs": "slide-left"
     },
+
+    {
+        "id": 5,
+        "title": "Photography Portflio Website",
+        "img":"/public/images/fp.png",
+        "description": "FP-Photography is a website built with Angular, TypeScript and Bootstrap, it's a landing page that displays the portfolio of a freelance photographer, this was a really fun project for me.",
+        "repo": "https://github.com/jorover/angular-photography-app.git",
+        "liveSite": "https://angular-photography.netlify.app",
+        "alt": "image five",
+        "dataOs": "slide-right"
+    },
  
     {
-         "id": 5,
+         "id": 6,
          "title": "Chocolate Online Shop",
          "img":"/public/images/c-v.png",
          "description": "RC Chocolates online shop website is a project i developed using Vue and Tailwind, Vue's component structure was interesting to explore and Tailwind made the styling a walk in the park. ",
-         "repo": "",
-         "liveSite": "",
-         "alt": "image five",
-         "dataOs": "slide-right"
+         "repo": "https://github.com/jorover/vue-chocolate-app.git",
+         "liveSite": "https://vue-chocolate-landing-page.netlify.app",
+         "alt": "image six",
+         "dataOs": "slide-left"
      },
  
      {
-         "id": 6,
+         "id": 7,
          "title": "Interactive Rating Component",
          "img":"/public/images/ic.png",
          "description": "Interactive rating component is a project from the FrontEnd Mentors challenge, built with HTML5, CSS3 and Vanilla Javascript, Users are able to: View the optimal layout for the app depending on their device's screen size, See hover states for all interactive elements on the page, Select and submit a number rating, See the Thank you card state after submitting a rating ",
-         "repo": "",
-         "liveSite": "",
-         "alt": "image six",
-         "dataOs": "slide-left"
+         "repo": "https://github.com/jorover/interactivecomponent.git",
+         "liveSite": "https://interactive-component.netlify.app",
+         "alt": "image seven",
+         "dataOs": "slide-right"
      }
 
 
