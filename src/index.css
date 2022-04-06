@@ -45,6 +45,7 @@ li {
 a {
   text-decoration: none;
   color: #fff;
+  cursor: var(--global-cursor);
 }
 
 h1 {
@@ -139,10 +140,15 @@ li,
   width: 23px;
   height: 23px;
   margin-left: 5px;
+  transition: 0.2s;
+  transform-origin: bottom;
+}
+
+.social-icons a:hover img {
+  transform: translateY(-2px);
 }
 
 .hamburger-menu,
-.side-menu,
 .hero-content {
   display: var(--global-flex);
   flex-direction: column;
@@ -152,14 +158,19 @@ li,
   top: 0;
   right: 0;
   height: 750px;
-  visibility: hidden;
   padding-top: 20px;
+}
+
+.hamburger-menu,
+.hero-btm-socials {
+  display: none;
 }
 
 .hamburger-icon {
   width: 35px;
   height: 35px;
-  align-self: flex-end;
+  position: absolute;
+  right: 0;
   margin-right: 20px;
   transform: translateY(-4px);
 }
@@ -177,13 +188,17 @@ li,
 }
 
 .side-menu {
-  justify-content: space-evenly;
-  align-self: flex-end;
+  position: absolute;
+  right: 0;
+  top: 70px;
   width: 0%;
   overflow: hidden;
   height: 685px;
-  margin-top: 10px;
   background: #fff4eb;
+}
+
+.side-menu li {
+  margin: 50px 0px;
 }
 
 .side-menu a {
@@ -279,13 +294,8 @@ h2 {
   margin-top: 10px;
 }
 
-.hero-btm-socials {
-  margin: 50px auto;
-  display: none;
-}
-
-.hero-btm-socials,
 .side-menu,
+.hero-btm-socials,
 .top-text,
 .portfolio-card,
 .hero-content,
@@ -414,16 +424,23 @@ h2 {
     display: none;
   }
 
+  .side-menu {
+    top: 66px;
+  }
+
   .box {
     max-width: 100px;
   }
 
+  .hamburger-menu,
   .hero-btm-socials {
     display: block;
   }
 
-  .hamburger-menu {
-    visibility: visible;
+  .hero-btm-socials {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
   }
 
   h1 {
