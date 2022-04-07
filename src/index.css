@@ -121,9 +121,12 @@ li,
   }
 }
 
-.top-bar-container,
-.hamburger-menu {
+.top-bar-container {
   z-index: 100;
+}
+
+.hamburger-menu {
+  z-index: 1;
 }
 
 .top-bar {
@@ -131,9 +134,13 @@ li,
   font-size: 1.2rem;
 }
 
-.top-nav,
-.hamburger-menu {
+.top-nav {
   width: 50%;
+}
+
+.hamburger-menu {
+  width: 0%;
+  overflow: hidden;
 }
 
 .social-icons img {
@@ -159,9 +166,10 @@ li,
   right: 0;
   height: 750px;
   padding-top: 20px;
+  transition: 0.5s;
 }
 
-.hamburger-menu,
+.hamburger-icon,
 .hero-btm-socials {
   display: none;
 }
@@ -170,9 +178,11 @@ li,
   width: 35px;
   height: 35px;
   position: absolute;
+  top: 18px;
   right: 0;
   margin-right: 20px;
-  transform: translateY(-4px);
+  transition: 0.5s;
+  transform: translateY(-2px);
 }
 
 .hamburger-icon:hover {
@@ -191,8 +201,7 @@ li,
   position: absolute;
   right: 0;
   top: 70px;
-  width: 0%;
-  overflow: hidden;
+  width: 100%;
   height: 685px;
   background: #fff4eb;
 }
@@ -205,7 +214,7 @@ li,
   color: #000;
 }
 
-.toggleMenu .side-menu {
+.toggleMenu {
   width: var(--global-width);
 }
 
@@ -283,6 +292,15 @@ h2 {
 .hero-primary-btn:hover {
   color: #000;
   background: var(--secondary-btn-bg-color);
+}
+
+.hero-primary-btn:hover a,
+.hero-secondary-btn a {
+  color: #000;
+}
+
+.hero-secondary-btn:hover a {
+  color: #fff;
 }
 
 .hero-secondary-btn {
@@ -428,11 +446,20 @@ h2 {
     top: 66px;
   }
 
+  .hero-primary-btn,
+  .hero-secondary-btn {
+    width: 50%;
+  }
+
+  .hero-secondary-btn {
+    margin: 20px 0px 0px 0px;
+  }
+
   .box {
     max-width: 100px;
   }
 
-  .hamburger-menu,
+  .hamburger-icon,
   .hero-btm-socials {
     display: block;
   }
@@ -471,10 +498,6 @@ h2 {
 }
 
 @media (max-width: 450px) {
-  .hamburger-menu {
-    width: var(--global-width);
-  }
-
   li {
     font-size: 0.9rem;
   }
@@ -486,10 +509,6 @@ h2 {
   .hero-primary-btn,
   .hero-secondary-btn {
     width: 70%;
-  }
-
-  .hero-secondary-btn {
-    margin: 20px 0px 0px 0px;
   }
 
   .portfolio-card {

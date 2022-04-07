@@ -4,15 +4,9 @@ const portfolioContainer = document.querySelector('.portfolio-container');
 const data = '/data.json'
 
 
-
-const OpenCloseMenu = () => {
-    hamburgerIcon.addEventListener('click', ()=> {
-        return hamburgerMenuContainer.classList.toggle('toggleMenu');
-    })
-}
-
-
-OpenCloseMenu();
+hamburgerIcon.addEventListener('click', ()=> {
+      hamburgerMenuContainer.classList.toggle('toggleMenu')
+})
 
 
 
