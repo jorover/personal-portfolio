@@ -7,7 +7,7 @@
        "repo": "https://github.com/jorover/furniture-app.git",
        "liveSite": "https://furniture-snip-app.netlify.app",
        "alt": "image one",
-       "dataOs": "slide-right",
+       "dataOs": "slide-left",
        "target":"_blank"
    },
 
@@ -31,7 +31,7 @@
         "repo": "https://github.com/jorover/jobsearchapp.git",
         "liveSite": "https://job-search-app.netlify.app",
         "alt": "image three",
-        "dataOs": "slide-right",
+        "dataOs": "slide-left",
         "target":"_blank"
     },
 
@@ -55,7 +55,7 @@
         "repo": "https://github.com/jorover/angular-photography-app.git",
         "liveSite": "https://angular-photography.netlify.app",
         "alt": "image five",
-        "dataOs": "slide-right",
+        "dataOs": "slide-left",
         "target":"_blank"
     },
  
@@ -79,7 +79,7 @@
          "repo": "https://github.com/jorover/interactivecomponent.git",
          "liveSite": "https://interactive-component.netlify.app",
          "alt": "image seven",
-         "dataOs": "slide-right",
+         "dataOs": "slide-left",
          "target":"_blank"
      }
 
