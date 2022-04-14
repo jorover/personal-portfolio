@@ -9,20 +9,12 @@ hamburgerIcon.addEventListener('click', ()=> {
       hamburgerMenuContainer.classList.toggle('toggleMenu')
 })
 
-
-Array.from(sideMenuLinks, item => {
-    item.addEventListener('click', ()=> {
-        hamburgerMenuContainer.classList.remove('toggleMenu')
-    })
-})
-
-
 const portfolioDisplay = async () => {
     const fetchData = await (await fetch(data)).json();
     portfolioContainer.innerHTML = '';
     const portfolioContent = fetchData.map(item => {
-        const {id, img, alt, dataOs, title, description, repo, liveSite, target} = item;
-        return portfolioContainer.innerHTML += `<figure id=${id} class="portfolio-card" data-aos=${dataOs}>
+        const {id, img, alt, dataOs, dataAosDuration, title, description, repo, liveSite, target} = item;
+        return portfolioContainer.innerHTML += `<figure id=${id} class="portfolio-card" data-aos=${dataOs} data-aos-delay=${dataAosDuration}>
         <img src=${img} alt=${alt} class="card-img" />
         <figcaption class="card-content">
             <h4> ${title} </h4>
@@ -43,4 +35,13 @@ const portfolioDisplay = async () => {
 }
 
 portfolioDisplay();
+
+
+
+
+Array.from(sideMenuLinks, item => {
+    item.addEventListener('click', ()=> {
+        hamburgerMenuContainer.classList.remove('toggleMenu')
+    })
+})
 

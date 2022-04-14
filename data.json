@@ -7,7 +7,7 @@
        "repo": "https://github.com/jorover/furniture-app.git",
        "liveSite": "https://furniture-snip-app.netlify.app",
        "alt": "image one",
-       "dataOs": "slide-right",
+       "dataOs": "slide-up",
        "target":"_blank"
    },
 
@@ -19,7 +19,8 @@
         "repo": "https://github.com/jorover/next-hotel-booking-app.git",
         "liveSite": "https://next-hotel-booking-app.netlify.app",
         "alt": "image two",
-        "dataOs": "slide-right",
+        "dataOs": "slide-up",
+        "dataAosDuration":"100",
         "target":"_blank"
     },
 
@@ -31,7 +32,8 @@
         "repo": "https://github.com/jorover/jobsearchapp.git",
         "liveSite": "https://job-search-app.netlify.app",
         "alt": "image three",
-        "dataOs": "slide-right",
+        "dataOs": "slide-up ",
+        "dataAosDuration":"200",
         "target":"_blank"
     },
 
@@ -43,7 +45,7 @@
         "repo": "https://github.com/jorover/restapicountry.git",
         "liveSite": "https://rest-api-countries-project.netlify.app",
         "alt": "image four",
-        "dataOs": "slide-right",
+        "dataOs": "slide-up",
         "target":"_blank"
     },
 
@@ -55,7 +57,8 @@
         "repo": "https://github.com/jorover/angular-photography-app.git",
         "liveSite": "https://angular-photography.netlify.app",
         "alt": "image five",
-        "dataOs": "slide-right",
+        "dataOs": "slide-up",
+        "dataAosDuration":"100",
         "target":"_blank"
     },
  
@@ -67,7 +70,8 @@
          "repo": "https://github.com/jorover/vue-chocolate-app.git",
          "liveSite": "https://vue-chocolate-landing-page.netlify.app",
          "alt": "image six",
-         "dataOs": "slide-right",
+         "dataOs": "slide-up",
+         "dataAosDuration":"200",
          "target":"_blank"
      },
  
@@ -79,7 +83,7 @@
          "repo": "https://github.com/jorover/interactivecomponent.git",
          "liveSite": "https://interactive-component.netlify.app",
          "alt": "image seven",
-         "dataOs": "slide-right",
+         "dataOs": "slide-up",
          "target":"_blank"
      }
 
