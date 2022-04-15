@@ -7,7 +7,7 @@
        "repo": "https://github.com/jorover/furniture-app.git",
        "liveSite": "https://furniture-snip-app.netlify.app",
        "alt": "image one",
-       "dataOs": "slide-up",
+       "dataOs": "zoom-in",
        "target":"_blank"
    },
 
@@ -19,7 +19,7 @@
         "repo": "https://github.com/jorover/next-hotel-booking-app.git",
         "liveSite": "https://next-hotel-booking-app.netlify.app",
         "alt": "image two",
-        "dataOs": "slide-up",
+        "dataOs": "zoom-in",
         "dataAosDuration":"100",
         "target":"_blank"
     },
@@ -32,7 +32,7 @@
         "repo": "https://github.com/jorover/jobsearchapp.git",
         "liveSite": "https://job-search-app.netlify.app",
         "alt": "image three",
-        "dataOs": "slide-up ",
+        "dataOs": "zoom-in",
         "dataAosDuration":"200",
         "target":"_blank"
     },
@@ -45,7 +45,7 @@
         "repo": "https://github.com/jorover/restapicountry.git",
         "liveSite": "https://rest-api-countries-project.netlify.app",
         "alt": "image four",
-        "dataOs": "slide-up",
+        "dataOs": "zoom-in",
         "target":"_blank"
     },
 
@@ -57,7 +57,7 @@
         "repo": "https://github.com/jorover/angular-photography-app.git",
         "liveSite": "https://angular-photography.netlify.app",
         "alt": "image five",
-        "dataOs": "slide-up",
+        "dataOs": "zoom-in",
         "dataAosDuration":"100",
         "target":"_blank"
     },
@@ -70,7 +70,7 @@
          "repo": "https://github.com/jorover/vue-chocolate-app.git",
          "liveSite": "https://vue-chocolate-landing-page.netlify.app",
          "alt": "image six",
-         "dataOs": "slide-up",
+         "dataOs": "zoom-in",
          "dataAosDuration":"200",
          "target":"_blank"
      },
@@ -83,7 +83,7 @@
          "repo": "https://github.com/jorover/interactivecomponent.git",
          "liveSite": "https://interactive-component.netlify.app",
          "alt": "image seven",
-         "dataOs": "slide-up",
+         "dataOs": "zoom-in",
          "target":"_blank"
      }
 
