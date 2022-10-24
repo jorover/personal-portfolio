@@ -1,11 +1,11 @@
 [
    {
        "id": 1,
-       "title": "R-Furniture Store",
+       "title": "Product feedback app",
        "img":"/public/images/r-f.png",
-       "description": "R-Furniture Store is an ecommerce website that i made with React and Snipcart. This project gave me alot of insight on react's core concepts such as components, props, hooks and react router. Snipcart takes care of the shopping cart functionality.",
-       "repo": "https://github.com/jorover/furniture-app.git",
-       "liveSite": "https://furniture-snip-app.netlify.app",
+       "description": "Product FeedBack App is a Guru challenge on FrontEnd Mentor that I built with React and Typescript. Among other Features of this application, users are able create, read, update, and delete product feedback request. Users can also filter suggestions by different categories, add comments and replies to a product feedback request.",
+       "repo": "https://github.com/jorover/feedback-app",
+       "liveSite": "https://feedback-comments-app.netlify.app/",
        "alt": "image one",
        "dataOs": "zoom-in",
        "target":"_blank"
@@ -26,11 +26,11 @@
 
     {
         "id": 3,
-        "title": "Job Search App",
+        "title": "Audiophile Ecommerce App",
         "img":"/public/images/jss.png",
-        "description": "RevJobs is a job search website inspired by one of FrontEnd Mentor 'ADVANCED' Challenge, it was made with HTML5, CSS3 & VANILLA JAVASCRIPT. With it's flexible job search filter, users are able to filter jobs on the index page by title, location, and whether a job is for a full-time position, users are also able to click a job from the index page so that they can read more information and apply for the job.",
-        "repo": "https://github.com/jorover/jobsearchapp.git",
-        "liveSite": "https://job-search-app.netlify.app",
+        "description": "Audiophile E-commerce App is a web application that I built with Angular 8+, it is a Guru challenge on FrontEnd mentor. Users are able to add, remove and edit products from the cart.",
+        "repo": "https://github.com/jorover/audophile-ecommerce",
+        "liveSite": "https://audophile-ecommerce.netlify.app/",
         "alt": "image three",
         "dataOs": "zoom-in",
         "dataAosDuration":"200",
@@ -51,41 +51,14 @@
 
     {
         "id": 5,
-        "title": "Photography Portflio Website",
+        "title": "Invoice app",
         "img":"/public/images/fp.png",
-        "description": "FP-Photography is a website built with Angular, TypeScript and Bootstrap, it's a landing page that displays the portfolio of a freelance photographer, this was a really fun project for me.",
-        "repo": "https://github.com/jorover/angular-photography-app.git",
-        "liveSite": "https://angular-photography.netlify.app",
+        "description": "Invoice App is a web application I built with Vue and Vanilla CSS. Users are able to create, read, update, and delete invoices. Users will receive form validations when trying to create/edit an invoice.",
+        "repo": "https://github.com/jorover/invoice-app",
+        "liveSite": "https://vue-invoice-app.netlify.app",
         "alt": "image five",
         "dataOs": "zoom-in",
         "dataAosDuration":"100",
         "target":"_blank"
-    },
- 
-    {
-         "id": 6,
-         "title": "Chocolate Online Shop",
-         "img":"/public/images/c-v.png",
-         "description": "RC Chocolates online shop website is a project i developed using Vue and Tailwind, Vue's component structure was interesting to explore and Tailwind made the styling a walk in the park. ",
-         "repo": "https://github.com/jorover/vue-chocolate-app.git",
-         "liveSite": "https://vue-chocolate-landing-page.netlify.app",
-         "alt": "image six",
-         "dataOs": "zoom-in",
-         "dataAosDuration":"200",
-         "target":"_blank"
-     },
- 
-     {
-         "id": 7,
-         "title": "Interactive Rating Component",
-         "img":"/public/images/ic.png",
-         "description": "Interactive rating component is a project from the FrontEnd Mentors challenge, built with HTML5, CSS3 and Vanilla Javascript, Users are able to: View the optimal layout for the app depending on their device's screen size, See hover states for all interactive elements on the page, Select and submit a number rating, See the Thank you card state after submitting a rating ",
-         "repo": "https://github.com/jorover/interactivecomponent.git",
-         "liveSite": "https://interactive-component.netlify.app",
-         "alt": "image seven",
-         "dataOs": "zoom-in",
-         "target":"_blank"
-     }
-
-
+    }
 ]
